@@ -47,8 +47,9 @@ Finally, you are connected to the VM, now the first step is to enable IIS( Inter
 After you will click "Programs", and click on “Turn windows features on or off” That will be under Programs and features. A list will pop up and then you will enable IIS. After you will expand IIS, click on the WWW(World Wide Web) services -> Application Development Features-> check the box for CGI. Finally make sure that all of the Common HTTP Features are turn on and click "OK"
 </p>
 <br />
-<img width="1280" alt="Screen Shot 2023-08-07 at 4 22 28 PM" src="https:/<img width="1280" alt="Screen Shot 2023-08-07 at 4 25 12 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/b90672c7-cee2-4800-b34c-c36fc03aefe4">
-/github.com/LuismTejada/osticket-prereqs/assets/140201562/8e297594-1cdb-4eaf-81ed-c8b80ff6d6d0">
+<img width="1280" alt="Screen Shot 2023-08-07 at 4 22 28 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/f2b4780a-59a8-4136-80c9-926319cc0d3c">
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 4 25 12 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/8846f777-1d7e-4919-9c7a-4bf3675f686e">
 
 <p>
 From the Installation files download and install PHP Manager for IIS. (PHPManagerforIIS_V1.5.0.msi) and the rewrite module( rewrite_amd64_en-US.msi)
