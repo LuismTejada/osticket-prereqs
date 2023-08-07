@@ -48,7 +48,7 @@ After you will click "Programs", and click on “Turn windows features on or off
 </p>
 <br />
 <img width="1280" alt="Screen Shot 2023-08-07 at 4 22 28 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/8e297594-1cdb-4eaf-81ed-c8b80ff6d6d0">
-<img width="1280" alt="Screen Shot 2023-08-07 at 4 25 12 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/527c0ff5-2429-4152-a6bc-aea41ddd80c6">
+<img width="1280" alt="Screen Shot 2023-08-07 at 4 25 12 PM" 
 </p>
 <p>
 From the Installation files download and install PHP Manager for IIS. (PHPManagerforIIS_V1.5.0.msi) and the rewrite module( rewrite_amd64_en-US.msi)
