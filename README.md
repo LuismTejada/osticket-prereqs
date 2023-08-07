@@ -40,10 +40,14 @@ Next, you have to connect to the Virtual machine using Microsoft Remote Desktop,
 
 <p>
 </p>
-Finally, you are connected to the VM, now the first step is to enable IIS( Internet Information Systems) just access the control panel and type "Run" and type "control" and this will take you to the control panel.
+Finally, you are connected to the VM, now the first step is to enable IIS( Internet Information Systems) just access the control panel and type "Run" and this will open a panel that will give you the ability to view and change system settings. In the run search bar, you will type "control" and this will take you to the control panel.
 </p>
 <p>  
-  <img width="1280" alt="Screen Shot 2023-08-07 at 4 09 21 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/64b21944-e162-40c5-96fa-f9fb184006e6">
+  
+  ![558B13EC-9ED9-4D59-A2D5-B60A9754DA46_1_201_a](https://github.com/LuismTejada/osticket-prereqs/assets/140201562/1ef1e4f6-c1ad-449f-bef8-965047b1068b)
+
+
+  
 
 After you will click "Programs", and click on “Turn windows features on or off” That will be under Programs and features. A list will pop up and then you will enable IIS. After you will expand IIS, click on the WWW(World Wide Web) services -> Application Development Features-> check the box for CGI. Finally make sure that all of the Common HTTP Features are turn on and click "OK"
 </p>
