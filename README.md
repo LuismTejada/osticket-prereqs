@@ -26,17 +26,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-<p>The first step is creating a VM ( Virtual Machine) using Microsoft Azure Portal. A VM (virtual machine) is a remote computer. In this case, we are using the virtual machine to protect our computer just in case something breaks. We are creating a resource group and the title that I used was “osTicket”.  Soon after we create a VM with 4 vCPU equipped with Windows 10. We will the IPv4 in the VM to access it. 
+<p>The first step is creating a VM ( Virtual Machine) using Microsoft Azure Portal. A VM (virtual machine) is a remote computer. In this case, we are using the virtual machine to protect our computer just in case something breaks. We are creating a resource group and the title that I used was “osTicket”.When you are creating your research group you need to make a username and password that you will use for the next step, So you have to remember what it is.  Soon after we create a VM with 4 vCPU equipped with Windows 10. We will the IPv4 in the VM to access it. 
   
  ![B01E5DF0-A141-423D-92C4-6CFABE231901_1_201_a](https://github.com/LuismTejada/osticket-prereqs/assets/140201562/4652fff1-c622-430f-a6e0-66ed97047172)
 
 </p>
 <p>
-Next, you have to connect to the Virtual machine using Remote Desktop Connection( RDP) using the newly created public address. To find the public IPv4 address is easy you just have to click the “overview” tab on your Virtual Machine.
-And for MacOS users, you will have to download Microsoft RDP.
+Next, you have to connect to the Virtual machine using Microsoft Remote Desktop, in my case because I am using a MacOS Device. If you are using Windows you will connect with Remote Desktop Connection (RDP). After you download Microsoft Remote Desktop from the app store the connecting part is really simple. You just have to click the (+) at the top. After that, a menu will appear and you have to add the IPv4 in our case "20.25.135.223". You will have to enter the username and password previously created.
 </p>
 <br />
-<img width="1280" alt="Screen Shot 2023-08-07 at 3 41 08 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/83e4c7c1-bfbd-4697-b3da-30e725a87c1f">
+![D2D997C9-0B49-4E26-A988-81F30A152F81_1_201_a](https://github.com/LuismTejada/osticket-prereqs/assets/140201562/a914b1f1-7f36-4393-b1f8-ef65c80b8215)
 
 <p>
 </p>
