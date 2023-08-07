@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-<p>The first step is creating a VM( Virtual Machine) using Microsoft Azure Portal. A VM(virtual machine is a remote computer. In this case, we are using the virtual machine to protect our computer just in case something breaks. We are creating a resource group and the title that I used was “osTicket”.  Soon after we create a VM with 4 vCPU equipped with Windows 10.
+<p>The first step is creating a VM ( Virtual Machine) using Microsoft Azure Portal. A VM(virtual machine is a remote computer. In this case, we are using the virtual machine to protect our computer just in case something breaks. We are creating a resource group and the title that I used was “osTicket”.  Soon after we create a VM with 4 vCPU equipped with Windows 10.
   
   <img width="1280" alt="Screen Shot 2023-08-07 at 12 32 41 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/a70bdd09-1f3d-4858-9ef6-db24de4daa98">
 </p>
