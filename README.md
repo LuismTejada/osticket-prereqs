@@ -49,12 +49,18 @@ Finally, you are connected to the VM, now the first step is to enable IIS( Inter
 
   
 
-After you will click "Programs", and click on “Turn windows features on or off” That will be under Programs and features. A list will pop up and then you will enable IIS. After you will expand IIS, click on the WWW(World Wide Web) services -> Application Development Features-> check the box for CGI. Finally make sure that all of the Common HTTP Features are turn on and click "OK"
+After you will click "Programs", and click on “Turn Windows features on or off” That will be under Programs and Features. A list will pop up and then you will enable IIS. After you will expand IIS, click on the WWW(World Wide Web) services -> Application Development Features-> check the box for CGI. Finally, make sure that all of the Common HTTP Features are turned on and click "OK"
 </p>
 <br />
-<img width="1280" alt="Screen Shot 2023-08-07 at 4 22 28 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/f2b4780a-59a8-4136-80c9-926319cc0d3c">
 
-<img width="1280" alt="Screen Shot 2023-08-07 at 4 25 12 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/8846f777-1d7e-4919-9c7a-4bf3675f686e">
+![568E0857-B335-4BD4-8C05-4BBA3193D6BC_1_201_a](https://github.com/LuismTejada/osticket-prereqs/assets/140201562/b2caa888-973d-4d1e-9efa-0e5d86d4e0f2)
+
+![15E21DEA-37E3-449B-9461-4B7662F38B92_1_201_a](https://github.com/LuismTejada/osticket-prereqs/assets/140201562/87b7f48b-3ed1-4715-9432-ca91f7cbada6)
+
+To make sure that your previous steps work is actually really simple. You just have to go to the browser and open a page, in this page, you will type "127.0.0.1" and press enter. If this did not work you just have to install and  uninstall IIS. 
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 6 58 51 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/e350a567-d4fe-410a-8a11-967fe4ef1d7e">
+
 
 <p>
 From the Installation files download and install PHP Manager for IIS. (PHPManagerforIIS_V1.5.0.msi) and the rewrite module( rewrite_amd64_en-US.msi)
