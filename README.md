@@ -28,21 +28,29 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>The first step is creating a VM( Virtual Machine) using Microsoft Azure Portal. A VM(virtual machine is a remote computer. In this case, we are using the virtual machine to protect our computer just in case something breaks. We are creating a resource group and the title that I used was “osTicket”.  Soon after we create a VM with 4 vCPU equipped with Windows 10.
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img width="1280" alt="Screen Shot 2023-08-07 at 12 32 41 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/a70bdd09-1f3d-4858-9ef6-db24de4daa98">
 </p>
 <p>
 Next, you have to connect to the Virtual machine using Remote Desktop Connection( RDP) using the newly created public address. To find the public IPv4 address is easy you just have to click the “overview” tab on your Virtual Machine.
 And for MacOS users, you will have to download Microsoft RDP.
 </p>
 <br />
+<img width="1280" alt="Screen Shot 2023-08-07 at 3 41 08 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/83e4c7c1-bfbd-4697-b3da-30e725a87c1f">
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Finally, you are connected to the VM, now the first step is to enable IIS( Internet Information Systems) just access the control panel and then select “Uninstall program”. From the left select “Turn windows features on or off. A list will pop up and then you will enable IIS. After you will expand IIS, click on the WWW(World Wide Web) services -> Application Development Features-> check the box for CGI -> Ok.
+Finally, you are connected to the VM, now the first step is to enable IIS( Internet Information Systems) just access the control panel and type "Run" and type "control" and this will take you to the control panel.
+</p>
+<p>  
+  <img width="1280" alt="Screen Shot 2023-08-07 at 4 09 21 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/64b21944-e162-40c5-96fa-f9fb184006e6">
+
+After you will click "Programs", and click on “Turn windows features on or off” That will be under Programs and features. A list will pop up and then you will enable IIS. After you will expand IIS, click on the WWW(World Wide Web) services -> Application Development Features-> check the box for CGI. Finally make sure that all of the Common HTTP Features are turn on and click "OK"
 </p>
 <br />
+<img width="1280" alt="Screen Shot 2023-08-07 at 4 22 28 PM" src="https://github.com/LuismTejada/osticket-p
+  <img width="1280" alt="Screen Shot 2023-08-07 at 4 25 12 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/c0a8eaf5-f689-4da0-b76f-393bfc633d5e">
+rereqs/assets/140201562/002ad9ce-ef3d-420e-b791-1b8a4d13f3df">
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
