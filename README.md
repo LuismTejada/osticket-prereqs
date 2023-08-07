@@ -47,10 +47,8 @@ Finally, you are connected to the VM, now the first step is to enable IIS( Inter
 After you will click "Programs", and click on “Turn windows features on or off” That will be under Programs and features. A list will pop up and then you will enable IIS. After you will expand IIS, click on the WWW(World Wide Web) services -> Application Development Features-> check the box for CGI. Finally make sure that all of the Common HTTP Features are turn on and click "OK"
 </p>
 <br />
-<img width="1280" alt="Screen Shot 2023-08-07 at 4 22 28 PM" src="https://github.com/LuismTejada/osticket-p
-  <img width="1280" alt="Screen Shot 2023-08-07 at 4 25 12 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/c0a8eaf5-f689-4da0-b76f-393bfc633d5e">
-rereqs/assets/140201562/002ad9ce-ef3d-420e-b791-1b8a4d13f3df">
-
+<img width="1280" alt="Screen Shot 2023-08-07 at 4 22 28 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/8e297594-1cdb-4eaf-81ed-c8b80ff6d6d0">
+<img width="1280" alt="Screen Shot 2023-08-07 at 4 25 12 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/527c0ff5-2429-4152-a6bc-aea41ddd80c6">
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
