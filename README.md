@@ -35,6 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 Next, you have to connect to the Virtual machine using Microsoft Remote Desktop, in my case because I am using a MacOS Device. If you are using Windows you will connect with Remote Desktop Connection (RDP). After you download Microsoft Remote Desktop from the app store the connecting part is really simple. You just have to click the (+) at the top. After that, a menu will appear and you have to add the IPv4 in our case "20.25.135.223". You will have to enter the username and password previously created.
 </p>
 <br />
+
 ![D2D997C9-0B49-4E26-A988-81F30A152F81_1_201_a](https://github.com/LuismTejada/osticket-prereqs/assets/140201562/a914b1f1-7f36-4393-b1f8-ef65c80b8215)
 
 <p>
