@@ -127,12 +127,18 @@ Go back to IIS, click on Sites-->Default-->osTicket. Double-click on PHP Manager
 
 We need to rename ost-config.PHP. We have to go from C\inetpub\wwwroot\osTicket\include\ost-sampleconfig.PHP to C:\inetpub\wwwroot\osTicket\include\ost-config.php. Permissions need to be assigned to ost-config.PHP. Click the disable inheritance -> Remove all. And then we are going to add new Permissions-> Everyone-> Full control.
 
-<img width="1280" alt="Screen Shot 2023-08-07 at 9 24 57 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/241fb21e-4272-40f5-86b9-6cd3de8e82ad">
+<img width="1280" alt="Screen Shot 2023-08-07 at 9 08 01 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/58e94ad9-a90c-4798-b6d3-8b741f8a5299">
+
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 9 28 28 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/e874a7cc-e2c3-4c1d-be19-eb19d9930db6">
 
 </p>
 <br />
 
 Continue setting up to osTicket in the browser (click continue). Name the Helpdesk and the default email.
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 9 24 57 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/24cbad7c-5a31-46b9-aac3-e1f643e76cb6">
+
 </p>
 <br />
 
