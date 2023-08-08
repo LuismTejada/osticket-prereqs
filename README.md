@@ -60,17 +60,31 @@ After you will click "Programs", and click on “Turn Windows features on or off
 To make sure that your previous steps work is actually really simple. You just have to go to the browser and open a page, in this page, you will type "127.0.0.1" and press enter. If this did not work you just have to install and  uninstall IIS. 
 
 <img width="1280" alt="Screen Shot 2023-08-07 at 6 58 51 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/e350a567-d4fe-410a-8a11-967fe4ef1d7e">
-
-
 <p>
-From the Installation files download and install PHP Manager for IIS. (PHPManagerforIIS_V1.5.0.msi) and the rewrite module( rewrite_amd64_en-US.msi)
+<br />
+  
+From the Installation files download and install PHP Manager for IIS. (PHPManagerforIIS_V1.5.0.msi) and the rewrite module( rewrite_amd64_en-US.msi). After you download PHP you have to double-click "PHP Manager for IIS" You will be clicking "Next" "I Agree" "Next" and "Close". For "rewrite" you have to download it and install, this is very straightforward just click "I Accept" "Install" and "Finish".
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 7 21 44 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/ec37217a-fd3d-41be-915e-413c84851381">
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 7 33 57 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/f8de506e-85a1-49c0-b436-590eed1897f0">
+
 </p>
 <br />
-The next step will be creating a PHP directory in the C: drive. From the installation files download PHP 7.3.8 (PHP-7.3.8-nuts-Win32-VC15-x86.zip) and unzip the contents into C:\ PHP.
+The next step will be creating a PHP directory in the C: drive. From the installation files download PHP 7.3.8 (PHP-7.3.8-nuts-Win32-VC15-x86.zip) and unzip the contents into C:\ PHP. The way you unzip the content is by Right Clicking PHP Directory and clicking "Extract All" After you will type "C:\PHP" and all the files will go there. 
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 7 35 59 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/b5cfb588-52ef-465b-be2a-4bcb0ef3c1c5">
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 7 47 34 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/0e37d745-0e84-467f-9b55-ef52ed9fba80">
+
 </p>
 <br />
+
 
 From the Installation Files, download osTicket v1.15.8. After that extract and copy the "upload" folder to c:\inetpub\wwwroot. Within c:\inetpub\wwwroot, rename "upload" to "osTicket". After that reload IIS (Open IIS and Stop and Start the server).
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 7 54 07 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/86b5602f-52dc-4c6d-8a3c-3a3a97221500">
+
 </p>
 <br />
 
