@@ -143,15 +143,31 @@ Continue setting up to osTicket in the browser (click continue). Name the Helpde
 <br />
 
 From the installation files, download and install HeidiSQL. Open HeidiSQL and create a new session and then connect to the session using the username and password when you set up MySQL. After that create a database called "osTicket".
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 9 37 37 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/8ddf4002-6e62-4772-a288-e39002b0d809">
+
+
 </p>
 <br />
 We will be continuing to set up osTicket in the browser. Once done finally click on the Install Now button.
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 9 40 27 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/d70decaf-046d-4160-885d-32c1644a0070">
+
 </p>
 <br />
 
 Finally! If you follow all the steps it should be installed successfully. Make sure to keep everything organized and clean. Delete C\inetpub\wwwroot\osTicket\setup. And set up permissions to read only: C\inetpub\wwwroot\osTicket\include\ost-config.php.
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 9 42 42 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/00986ea9-708f-4f44-8322-169caec89478">
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 9 43 42 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/d35cf1fa-d435-4666-8ebb-e654822f716d">
+
 </p>
 <br />
 
 Browse to your help desk login page:
 C:\inetpub\wwwroot\osTicket\include\ost-config.php. Everything should be working according to plan.
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 9 49 17 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/2b121dc9-b600-4212-89a7-f7d408448c40">
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 9 50 05 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/0d95b6ba-7c54-4bbe-a806-40063ebec876">
