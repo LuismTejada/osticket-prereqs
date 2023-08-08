@@ -126,6 +126,9 @@ Go back to IIS, click on Sites-->Default-->osTicket. Double-click on PHP Manager
 <img width="1280" alt="Screen Shot 2023-08-07 at 9 02 47 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/186f0600-f2cb-4512-b64c-c2e6347e65b1">
 
 We need to rename ost-config.PHP. We have to go from C\inetpub\wwwroot\osTicket\include\ost-sampleconfig.PHP to C:\inetpub\wwwroot\osTicket\include\ost-config.php. Permissions need to be assigned to ost-config.PHP. Click the disable inheritance -> Remove all. And then we are going to add new Permissions-> Everyone-> Full control.
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 9 24 57 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/241fb21e-4272-40f5-86b9-6cd3de8e82ad">
+
 </p>
 <br />
 
