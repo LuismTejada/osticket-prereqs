@@ -81,21 +81,49 @@ The next step will be creating a PHP directory in the C: drive. From the install
 <br />
 
 
-From the Installation Files, download osTicket v1.15.8. After that extract and copy the "upload" folder to c:\inetpub\wwwroot. Within c:\inetpub\wwwroot, rename "upload" to "osTicket". After that reload IIS (Open IIS and Stop and Start the server).
+From the Installation Files, download and install VC_redist.x86.exe, Install MySQL 5.5.62 (mysql-5.5.62-win32.msi) a database that osTicket relies on. To download VC Redist is really fast, just have to click "agree" and "install". For MySQL will be a little more complicated, after you download have to double-click on it, and click "Next" to accept the agreement "Next" and you have to do a "Typical Install"
 
 <img width="1280" alt="Screen Shot 2023-08-07 at 7 54 07 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/86b5602f-52dc-4c6d-8a3c-3a3a97221500">
 
+<img width="1280" alt="Screen Shot 2023-08-07 at 8 16 16 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/db9be748-8da4-4772-a243-0f08ff771dcc">
 </p>
 <br />
 
+Open IIS as an Admin. From the start menu when you type IIS, right-click on IIS and click "Run as admin" 
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 8 23 37 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/098250b1-83e7-49f2-b3c2-046921696513">
+
+Register PHP from within IIS. After that reload IIS (Open IIS and Stop and Start the server)
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 8 25 51 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/3a746c4c-ab57-4925-996f-d2733f11f887"> 
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 8 29 18 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/8df01d08-bcbb-4aa0-bdf1-cd9806b88b2e">
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 8 30 32 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/0bfccafc-8c7c-499c-8d70-31c20f847f74">
+
+From the installation Files, download osTicket v1.15.8. After that extract and copy the "upload" folder to c:\inetpub\wwwroot. Within C:\inetpub\wwwroot, rename "Upload" to "osTicket". After that reload IIS.
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 8 52 11 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/c79ab2ea-9c07-45c6-8597-4097719cd431">
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 8 52 38 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/8eb6fed7-f0e6-4426-984a-a454f01359fa">
+
 
 The next step is going to Go to Sites-->Default-->osTicket. On the right click “Browse *:80”. An osTicket Installer page will pop up.
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 8 54 59 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/9bfbb756-57b1-4949-8098-7b912cf9ade1">
+
 </p>
 <br />
 
 Go back to IIS, click on Sites-->Default-->osTicket. Double-click on PHP Manager and then click on 'Enable or disable an extension'. Enable: php_imap.dll, php_intl.dll and php_opcache.dll. Refresh the osTicket site in your browser and observe the changes.
 </p>
 <br />
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 8 56 13 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/3648d37e-8546-4668-b955-8263fed14a55">
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 9 00 21 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/c3c8c4dc-7800-455b-b943-586e3a942be1">
+
+<img width="1280" alt="Screen Shot 2023-08-07 at 9 02 47 PM" src="https://github.com/LuismTejada/osticket-prereqs/assets/140201562/186f0600-f2cb-4512-b64c-c2e6347e65b1">
 
 We need to rename ost-config.PHP. We have to go from C\inetpub\wwwroot\osTicket\include\ost-sampleconfig.PHP to C:\inetpub\wwwroot\osTicket\include\ost-config.php. Permissions need to be assigned to ost-config.PHP. Click the disable inheritance -> Remove all. And then we are going to add new Permissions-> Everyone-> Full control.
 </p>
